@@ -1,0 +1,75 @@
+
+/*公共样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+   text-decoration: none;
+  
+}
+a:hover{
+	color: #ddd;
+}
+/*index.html--css*/
+.maxdiv{
+	background-image:url(img/pic01.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.fontstyle{
+	 color: #fff;
+	 display: inline-block;
+	 margin-top: 10px;
+}
+.head{
+	width: 130px;
+	height: 60px;
+	position: absolute;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	text-align: center;
+}
+
+/*home.html---css*/
+header h2{
+	background-color: #848484;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    padding-left: 20px;
+}
+.text-box{
+	height: 120px;
+	border-bottom: solid 1px #fff;
+	position: relative;
+}
+.text-box h4{
+	display: inline-block;
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    text-align: center;
+    background-color: #d6d6d6;
+}
+.text-box .text{
+    top: 0;
+    left: 120px;
+    height: 120px;
+    width: 90%;
+    padding-left: 10px;
+    display: inline-block;
+    border: solid 1px #d6d6d6;
+    position: absolute;
+    line-height: 30px;
+}
+.text-box .font{
+	text-indent: 2em;
+    display: inline-block;
+}
